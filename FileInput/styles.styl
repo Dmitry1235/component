@@ -1,0 +1,60 @@
+.FileInput {
+  display flex
+  height 100%
+  flex 1 1 auto
+
+  &_move > &__label {
+    position absolute
+    top 0
+    left 0
+    bottom 0
+    z-index $zTopLay
+    border 2px dashed $blueBcColor
+    border-radius 15px
+  }
+
+  &__label {
+    display flex
+    width 100%
+    min-width max-content
+    padding 0 10px
+    flex-direction column
+    font-size 17px
+    line-height 24px
+    justify-content center
+    align-items center
+
+    @media $phone {
+      min-width inherit
+      padding 0
+      justify-content flex-start
+    }
+  }
+
+  &_move {
+    & ^[0]__label {
+      background $activeTextColor
+    }
+
+    & ^[0]__mask {
+      width 100%
+      height 100%
+    }
+  }
+
+  &__mask {
+    position absolute
+    top 0
+    right 0
+    left 0
+    bottom 0
+    z-index 100
+    width 0
+    height 0
+  }
+
+  &__input {
+    position absolute
+    width 0
+  }
+}

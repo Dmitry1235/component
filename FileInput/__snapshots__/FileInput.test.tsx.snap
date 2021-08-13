@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileInput:: Snapshots Default 1`] = `
+<div
+  className="FileInput"
+  style={Object {}}
+>
+  <div
+    className="FileInput__label"
+    onDragOver={[Function]}
+  >
+    Загрузите файл
+    <div
+      className="FileInput__mask"
+      onDragLeave={[Function]}
+      onDrop={[Function]}
+    />
+  </div>
+  <input
+    accept=""
+    className="FileInput__input"
+    multiple={true}
+    onChange={[Function]}
+    type="file"
+  />
+</div>
+`;

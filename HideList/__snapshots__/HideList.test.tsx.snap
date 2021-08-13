@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HideList snapshots Default 1`] = `
+<ul
+  className="HideList"
+>
+  <li
+    className="HideList__item"
+  >
+    <p
+      className="Paragraph Paragraph_size_big HideList__label"
+    >
+      Поступило в сортировочный центр
+    </p>
+    <div
+      className="HideList__title"
+    >
+      <p
+        className="Paragraph Paragraph_size_medium HideList__date"
+      >
+        30 ноября 2020, 19:10
+      </p>
+      <p
+        className="Paragraph Paragraph_size_medium HideList__address"
+      >
+        200920, Нижний Новгород
+      </p>
+    </div>
+  </li>
+  <li
+    className="HideList__item HideList__item_prev-btn"
+  >
+    <p
+      className="Paragraph Paragraph_size_big HideList__label"
+    >
+      Поступило в сортировочный центр
+    </p>
+    <div
+      className="HideList__title"
+    >
+      <p
+        className="Paragraph Paragraph_size_medium HideList__date"
+      >
+        30 ноября 2020, 19:10
+      </p>
+      <p
+        className="Paragraph Paragraph_size_medium HideList__address"
+      >
+        200920, Нижний Новгород
+      </p>
+    </div>
+  </li>
+  <button
+    className="Button Button_size_big Button_mod_custom Button_corner_primary HideList__more"
+    disabled={false}
+    onClick={[Function]}
+    title=""
+    type="button"
+  >
+    <div
+      className="HideList__points"
+    />
+  </button>
+  <li
+    className="HideList__item"
+  >
+    <p
+      className="Paragraph Paragraph_size_big HideList__label"
+    >
+      Поступило в сортировочный центр
+    </p>
+    <div
+      className="HideList__title"
+    >
+      <p
+        className="Paragraph Paragraph_size_medium HideList__date"
+      >
+        30 ноября 2020, 19:10
+      </p>
+      <p
+        className="Paragraph Paragraph_size_medium HideList__address"
+      >
+        200920, Нижний Новгород
+      </p>
+    </div>
+  </li>
+  <li
+    className="HideList__item"
+  >
+    <p
+      className="Paragraph Paragraph_size_big HideList__label"
+    >
+      Поступило в сортировочный центр
+    </p>
+    <div
+      className="HideList__title"
+    >
+      <p
+        className="Paragraph Paragraph_size_medium HideList__date"
+      >
+        30 ноября 2020, 19:10
+      </p>
+      <p
+        className="Paragraph Paragraph_size_medium HideList__address"
+      >
+        200920, Нижний Новгород
+      </p>
+    </div>
+  </li>
+</ul>
+`;

@@ -1,0 +1,44 @@
+.ProgressBar {
+  background $primaryGrayColor
+  overflow hidden
+  border-radius 3px
+  height 4px
+
+  &__line {
+    height 100%
+    transform translateX(-100%)
+    background #4CACE8
+    border-radius 3px
+  }
+
+  &__theme {
+    &_file {
+      & ^[0]__line {
+        animation: animFile 1s ease-in-out;
+        transform translateX(-10%)
+      }
+    }
+  }
+
+  &__endAnimation {
+    & ^[0]__line {
+      transition transform 0.3s ease-in-out;
+      transform translateX(0%)
+    }
+  }
+}
+
+@keyframes animFile {
+  0% {
+    transform translateX(-100%)
+  }
+  50% {
+    transform translateX(-50%)
+  }
+  75% {
+    transform translateX(-25%)
+  }
+  90% {
+    transform translateX(-10%)
+  }
+}
